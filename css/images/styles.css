@@ -1,3 +1,44 @@
+@import "layout.css";
+@import "main.css";
+@import "typo.css";
+
+body {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+header {
+  background-color: pink;
+  height: 10%;
+}
+
+header ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+header li {
+  list-style-type: none;
+  margin : auto;
+}
+
+
 img {
   float: left;
+  border-radius: 10px;
+  margin-right: 4%;
+}
+
+.gorilla-card {
+  width: 90%;
+  margin: auto;
+  padding: 2em;
+  border-width: thin;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
 }
