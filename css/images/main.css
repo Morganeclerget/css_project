@@ -37,6 +37,10 @@ header li {
   margin-left: 10%;
 }
 
+/* ___________________________________________________________________________
+                               Page ACCUEIL
+   ___________________________________________________________________________*/
+
 /* ------------- HERO --------------------- */
 
 .hero {
@@ -112,6 +116,81 @@ flex-basis: 350px;
   border-radius: 10px;
 }
 
+/* ___________________________________________________________________________
+                               Page Liste
+   ___________________________________________________________________________*/
+
+
+h2 {
+  position: absolute;
+  left: 20%;
+}
+
+.card {
+  width: 100%;
+  margin-top: 120px;
+}
+
+.gorilla-list {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.goilla-list-item {
+  border-style: solid;
+  border-radius: 10px;
+  border-width: thin;
+  flex-basis: 350px;
+  margin-bottom: 50px;
+}
+
+.goilla-list-item figure {
+  margin: 10%;
+}
+
+article figure img {
+  width: 150px;
+  height: 100px;
+  border-radius: 5px;
+  margin-right: 20px;
+  float: left;
+}
+
+h3 {
+  float: right;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+
+.more-link {
+  padding: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  width : 40%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+.more-link:hover {
+  color : black;
+  background-color: white;
+  font-weight: bold;
+}
+
+/* ___________________________________________________________________________ */
+
 /* ------------- FOOTER --------------------- */
 
 
@@ -119,6 +198,7 @@ footer {
   width: 100%;
   height: 200px;
   background-color: black;
+  margin-top: 100px;
 }
 
 .footer {
