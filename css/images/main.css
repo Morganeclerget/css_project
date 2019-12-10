@@ -53,10 +53,26 @@ a:hover {
 
 .hero {
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1516528387618-afa90b13e000?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80);
+  background-image: url(../../images/jungle01.jpg);
   background-size: cover;
 }
 
+ @media (min-width:1025px) and (max-width: 1280px) {
+  .hero {
+    background-image: url(../../images/jungle02.jpg);
+  }
+}
+ @media (min-width:768px) and (max-width: 1024px) {
+
+  .hero {
+    background-image: url(../../images/jungle03.jpg);
+  }
+}
+@media (min-width:481px) and (max-width: 767px) {
+  .hero {
+    background-image: url(../../images/jungle04.jpg);
+  }
+}
 
 h1 {
   text-align: center;
@@ -86,7 +102,7 @@ h1 {
   justify-content: space-evenly;
 }
 
-.intro {
+.para {
   flex-basis: 280px;
 }
 
@@ -129,7 +145,7 @@ flex-basis: 350px;
    ___________________________________________________________________________*/
 
 
-h2 {
+.page-title {
   position: absolute;
   left: 20%;
 }

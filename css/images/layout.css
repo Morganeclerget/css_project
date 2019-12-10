@@ -20,14 +20,16 @@ body{
   }
 }
 @media (min-width:768px) and (max-width: 1024px) {
+
   body{
     background-color: purple;
       }
 
-  .hero {
-    background-image: url(images/jungle02.jpg);
-  }
+  /*.hero {
+    background-image: url(../../images/jungle02.jpg);
+  } */
 }
+
 @media (min-width:1025px) and (max-width: 1280px) {
   body{
     background-color: brown;
