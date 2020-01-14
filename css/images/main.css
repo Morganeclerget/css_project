@@ -23,28 +23,16 @@ header {
   opacity: 0;
 }
 
-header ul {
-  width: 90%;
-  margin-block-start: 0;
-  padding-inline-start: 0;
-  margin: auto;
-  text-align: right;
-}
-
 header li {
   list-style-type: none;
   display: inline-block;
+  margin: auto;
   margin-left : 100px;
+
 }
 
-header a {
-  text-decoration: none;
-  color: black;
-}
 
-header a:hover {
-  text-decoration: underline;
-}
+
 
 /* --------- NAV - MENU BURGER ------------------------- */
 
@@ -67,12 +55,12 @@ header a:hover {
   position: relative;
   border-radius: 3px;
   z-index: 1;
-  transform: rotate(45deg) translate(-2px,-1px);
+  transform: rotate(45deg) translate(8px,14px);
   background: rgb(127, 140, 167);
 }
 
 .menu-close .burger-breads span:nth-child(2) {
-  transform: rotate(135deg) translate(-6px, 9px);
+  transform: rotate(135deg) translate(8px,0px);
 }
 
 .menu-close .burger-breads span:nth-child(3) {
@@ -102,27 +90,30 @@ header a:hover {
   padding: 2.5em 0 0;
   min-height: 100%;
   width: 200px;
-  background: rgb(41,46,56);
+  background: white;
 }
 
-.main-menu a {
+.main-menu li {
+  margin-left: 0;
   display: block;
   padding: .75em 15px;
   line-height: 1em;
-  font-size:1em;
-  color: #fff;
-  text-decoration: none;
   border-bottom: 1px solid rgb(127,140,167);
 }
 
-.main-menu li:first-child a {
+.main-menu a {
+  font-size:1em;
+  color: black;
+  text-decoration: none;
+}
+
+.main-menu li:first-child {
   border-top: 1px solid rgb(127,140,167);
 }
 
-.main-menu a:hover,
-.main-menu a:focus {
-  background: #333;
-  text-decoration: underline;
+.main-menu li:hover,
+.main-menu li:focus {
+  background: #bbf6b7;
 }
 
 .main-menu .menu-close {
@@ -166,7 +157,7 @@ We could use '.main-menu:target:after', but it wouldn't be clickable.
   height: 100%;
   z-index: 998;
   background: #000;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.6);
   cursor: default;
 }
 
@@ -211,15 +202,24 @@ Horizontal menu
     background: none;
   }
 
-  .main-menu a {
-    color: rgb(26,20,72);
-    border: 0 !important; /* Remove borders from off-canvas styling */
+  .main-menu li {
+    margin-left: 100px;
+    border-bottom: 0 !important;
+  }
+
+  .main-menu li:first-child {
+    border-top: 0;
   }
 
   .main-menu a:hover,
   .main-menu a:focus {
-    background: none; /* Remove borders from off-canvas styling */
-    color: #c00;
+    color: black;
+    text-decoration: underline;
+  }
+
+  .main-menu li:hover,
+  .main-menu li:focus {
+    background: none;
   }
 }
 
