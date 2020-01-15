@@ -111,7 +111,6 @@ header li {
 
 .main-menu li:first-child {
   border-top: 1px solid #cdcdcd;
-  margin-top: 20px;
 }
 
 .main-menu li:hover,
