@@ -2,7 +2,7 @@
   background-color: red;
 }*/
 h1 {
-    font-size: 10em;
+    font-size: 9em;
 }
 
 @media (max-width:480px) {
@@ -12,18 +12,25 @@ body{
 }
 
 @media (min-width:481px) and (max-width: 767px) {
-  body{
+  /*body{
     background-color: green;
       }
+      */
   h1 {
-    font-size: 5em;
+    font-size: 3em;
   }
+
 }
 @media (min-width:768px) and (max-width: 1024px) {
 
-  body{
+  h1 {
+    font-size: 5em;
+  }
+
+  /*body{
     background-color: purple;
       }
+      */
 
   /*.hero {
     background-image: url(../../images/jungle02.jpg);
@@ -31,7 +38,12 @@ body{
 }
 
 @media (min-width:1025px) and (max-width: 1280px) {
-  body{
+  /*body{
     background-color: brown;
+      }
+      */
+
+      h1 {
+        font-size: 7em;
       }
 }

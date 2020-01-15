@@ -231,28 +231,12 @@ Horizontal menu
 
 .hero {
   width: 100%;
+  position: relative;
   background-image: url(../../images/jungle01.jpg);
   background-size: cover;
 }
 
- @media (min-width:1025px) and (max-width: 1280px) {
-  .hero {
-    background-image: url(../../images/jungle02.jpg);
-  }
-}
- @media (min-width:768px) and (max-width: 1024px) {
-
-  .hero {
-    background-image: url(../../images/jungle03.jpg);
-  }
-}
-@media (min-width:481px) and (max-width: 767px) {
-  .hero {
-    background-image: url(../../images/jungle04.jpg);
-  }
-}
-
-h1 {
+.hero h1 {
   text-align: center;
   margin: 0;
   padding-top: 5%;
@@ -266,6 +250,90 @@ h1 {
   margin: auto;
   padding-bottom: 10%;
 }
+
+
+ @media (min-width:1025px) and (max-width: 1280px) {
+  .hero {
+    background-image: url(../../images/jungle02.jpg);
+  }
+
+  .hero::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,.4);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 990;
+  }
+
+  .hero h1 {
+    position: relative;
+    z-index: 999;
+  }
+
+  .intro-1 {
+    position: relative;
+    z-index: 999;
+  }
+
+}
+ @media (min-width:768px) and (max-width: 1024px) {
+
+  .hero {
+    background-image: url(../../images/jungle03.jpg);
+  }
+
+  .hero::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 990;
+  }
+  .hero h1 {
+    position: relative;
+    z-index: 999;
+  }
+
+  .intro-1 {
+    position: relative;
+    z-index: 999;
+    font-size: 0.9em;
+  }
+}
+@media (min-width:481px) and (max-width: 767px) {
+  .hero {
+    background-image: url(../../images/jungle04.jpg);
+  }
+
+  .hero::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 990;
+  }
+  .hero h1 {
+    position: relative;
+    z-index: 999;
+  }
+
+  .intro-1 {
+    position: relative;
+    z-index: 999;
+    font-size: 0.8em;
+  }
+}
+
+
 
 /* ------------- SECTION RUNNING TEXT --------------------- */
 
@@ -417,4 +485,13 @@ footer ul {
 footer a {
   text-decoration: none;
   color: white;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer img {
+  width: 150px;
+  height: auto;
 }
