@@ -5,13 +5,20 @@ h1 {
     font-size: 9em;
 }
 
-@media (max-width:480px) {
-body{
+@media (max-width:650px) {
 
-    }
+  h1 {
+    font-size: 3em;
+  }
+
+  .running-text {
+    max-width: 400px;
+    column-count: 1;
+    font-size: 0.8em;
+  }
 }
 
-@media (min-width:481px) and (max-width: 767px) {
+@media (min-width:651px) and (max-width: 767px) {
   /*body{
     background-color: green;
       }
@@ -20,11 +27,37 @@ body{
     font-size: 3em;
   }
 
+  header {
+    width: 95%;
+  }
+
+  .running-text {
+    max-width: 600px;
+    column-count: 2;
+    font-size: 0.8em;
+  }
+
+  .intro {
+    padding-right: 11px;
+  }
+
+
+
 }
 @media (min-width:768px) and (max-width: 1024px) {
 
   h1 {
     font-size: 5em;
+  }
+
+  .running-text {
+    max-width: 680px;
+    column-count: 2;
+    font-size: 0.9em;
+  }
+
+  .intro {
+    padding-right: 11px;
   }
 
   /*body{
@@ -45,5 +78,9 @@ body{
 
       h1 {
         font-size: 7em;
+      }
+
+      .running-text {
+        max-width: 900px;
       }
 }

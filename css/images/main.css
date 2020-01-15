@@ -71,6 +71,8 @@ header li {
 .menu-toggle {
   display: inline-block;
   padding: 1em;
+  margin-top : auto;
+  margin-bottom: auto;
 }
 
 .main-menu {
