@@ -365,26 +365,30 @@ Horizontal menu
   width: 100%;
   margin-top: 10%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .img-accueil {
-width: 300px;
-margin-bottom: 10%;
-border-radius: 5px;
-flex-basis: 350px;
+  width: 250px;
+  border-radius: 5px;
 }
 
 .voir-plus {
-  float: right;
-  width: 10%;
-  margin-right: 10%;
-  padding-top : 1%;
-  padding-bottom: 1%;
+  width: 150px;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  padding: 1em 0em 1em 0em;
   font-weight: bold;
   font-size: 16px;
-  border-radius: 10px;
+  border-radius: 6px;
+}
+
+.voir-plus:hover,
+.voir-plus:focus {
+  background-color: black;
+  color: white;
 }
 
 /* ___________________________________________________________________________

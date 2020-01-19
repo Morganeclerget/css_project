@@ -16,6 +16,10 @@ h1 {
     column-count: 1;
     font-size: 0.8em;
   }
+
+  .img-accueil {
+  width: 320px;
+  }
 }
 
 @media (min-width:651px) and (max-width: 767px) {
@@ -41,9 +45,19 @@ h1 {
     padding-right: 11px;
   }
 
+  .img-accueil {
+  width: 320px;
+  }
+
+  .gorille {
+    width: 90%;
+  }
+
 
 
 }
+
+
 @media (min-width:768px) and (max-width: 1024px) {
 
   h1 {
@@ -58,6 +72,10 @@ h1 {
 
   .intro {
     padding-right: 11px;
+  }
+
+  .img-accueil {
+  width: 300px;
   }
 
   /*body{
@@ -82,5 +100,9 @@ h1 {
 
       .running-text {
         max-width: 900px;
+      }
+
+      .img-accueil {
+      width: 300px;
       }
 }
