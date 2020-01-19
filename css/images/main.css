@@ -14,11 +14,7 @@ header {
 }
 
 .logo {
-  width: 10%;
-  padding: 10px;
-  border-style: solid;
-  border-width: thin;
-  background-color: grey;
+  width: 80px;
   text-align: center;
 }
 
@@ -218,8 +214,8 @@ Horizontal menu
     border-top: 0;
   }
 
-  .main-menu a:hover,
-  .main-menu a:focus {
+  .main-menu li:hover a,
+  .main-menu li:focus a {
     color: black;
     text-decoration: underline;
   }
