@@ -20,6 +20,19 @@ h1 {
   .img-accueil {
   width: 320px;
   }
+
+  .footer-part {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer {
+    height: 570px;
+  }
+
+  footer img {
+    margin-top: 30px;
+  }
 }
 
 @media (min-width:651px) and (max-width: 767px) {
@@ -52,8 +65,6 @@ h1 {
   .gorille {
     width: 90%;
   }
-
-
 
 }
 
