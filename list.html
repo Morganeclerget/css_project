@@ -18,14 +18,33 @@
 
     <!--- Header ----------->
 
-
     <header>
-      <p class="logo"> Logo </p>
-        <ul>
-          <li> <a href="index.html">Home</a></li>
-          <li> <a href="list.html">Lists</a></li>
-          <li><a href="monkey-01.html">Monkeys</a></li>
-        </ul>
+      <a href="#main-menu" class="menu-toggle">
+          <div class="burger-breads">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+      </a>
+
+      <img class="logo" src="images/logos-n-icons/favs/mstile-144x144.png" alt="monkey logo"> </img>
+
+      <nav id="main-menu" class="main-menu">
+          <a href="#main-menu-toggle" class="menu-close">
+            <div class="burger-breads close">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="list.html">Lists</a></li>
+            <li><a href="monkey-01.html">Monkeys</a></li>
+          </ul>
+        </nav>
+        <a href="#main-menu-toggle" class="backdrop" hidden></a>
+
     </header>
 
   <h2 class="page-title"> LIST </h2>
@@ -177,18 +196,26 @@
 
 
   <footer>
-    <div class="nav-recap">
-      <ul>
-        <li> <a href="index.html">Home</a></li>
-        <li> <a href="list.html">Lists</a></li>
-        <li><a href="monkey-01.html">Monkeys</a></li>
-      </ul>
+    <div class="footer-part">
+      <div class="footer-nav">
+        <h3>Nav</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="list.html">Lists</a></li>
+          <li><a href="monkey-01.html">Monkeys</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Contact</h3>
+        <p> Morgane CLERGET </p>
+        <a href="mailto:morg.clerget@gmail.com"> morg.clerget@gmail.com </p>
+      </div>
+
+
+
+      <img src="images/photo_morgane.jpg" alt="Photo de Morgane CLERGET">
     </div>
-
-    <img src="" alt="">
-
-    <h3>Contact</h3>
-
   </footer>
 
   </body>
