@@ -258,10 +258,23 @@ Horizontal menu
   color: white;
   width: 60%;
   margin: auto;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
   font-size: 1.2em;
   text-align: center;
   font-weight: bold;
+}
+
+.scroll-icon {
+  width: 20px;
+  margin:auto;
+}
+
+.angle-down {
+  position: relative;
+  width: 20px;
+  text-align: center;
+  z-index: 1001;
+  margin-bottom: 70px;
 }
 
 
@@ -291,7 +304,10 @@ Horizontal menu
     z-index: 999;
   }
 
+
+
 }
+
  @media (min-width:768px) and (max-width: 1024px) {
 
   .hero {
@@ -354,6 +370,7 @@ Horizontal menu
   .intro-2 {
     font-size: 1em;
   }
+
 }
 
 
@@ -381,9 +398,6 @@ Horizontal menu
   margin: auto;
 }
 
-.img-accueil:hover {
-  box-shadow: 0px 0px 24px -8px rgba(66,66,66,1);
-}
 
 .gorilla {
   width: 100%;
@@ -396,7 +410,14 @@ Horizontal menu
 .img-accueil {
   width: 250px;
   border-radius: 5px;
+  transition: all 0.5s ease;
 }
+
+.img-accueil:hover {
+  transition: all 0.5s ease;
+  box-shadow: 0px 0px 24px -8px rgba(66,66,66,1);
+}
+
 
 .button {
   text-decoration: none;
@@ -412,12 +433,14 @@ Horizontal menu
   font-weight: bold;
   font-size: 16px;
   border-radius: 6px;
+  transition: all 0.5s ease;
 }
 
 .voir-plus:hover,
 .voir-plus:focus {
   background-color: black;
   color: white;
+  transition: all 0.5s ease;
 }
 
 /* ___________________________________________________________________________
