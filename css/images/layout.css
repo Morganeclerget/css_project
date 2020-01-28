@@ -11,6 +11,10 @@ h1 {
     font-size: 3em;
   }
 
+  .logo {
+    width: 60px;
+  }
+
   .running-text {
     max-width: 400px;
     column-count: 1;
@@ -46,6 +50,10 @@ h1 {
 
   header {
     width: 95%;
+  }
+
+  .logo {
+    width: 60px;
   }
 
   .running-text {
