@@ -269,6 +269,10 @@ Horizontal menu
   margin:auto;
 }
 
+.scroll-icon:hover {
+  transform: translateY(20px);
+}
+
 .angle-down {
   position: relative;
   width: 20px;
@@ -332,7 +336,7 @@ Horizontal menu
   .intro-1, .intro-2 {
     position: relative;
     z-index: 999;
-    font-size: 0.9em;
+    font-size: 1em;
   }
 
   .intro-2 {
@@ -364,7 +368,7 @@ Horizontal menu
   .intro-1, .intro-2 {
     position: relative;
     z-index: 999;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
   .intro-2 {
@@ -387,6 +391,10 @@ Horizontal menu
 
 .running-text h2 {
   column-span: all;
+}
+
+.para-title {
+  margin-top: 60px;
 }
 
 
@@ -481,6 +489,10 @@ Horizontal menu
   margin-bottom: 50px;
 }
 
+.goilla-list-item:hover {
+  animation: appearIn 0.5s;
+}
+
 .goilla-list-item figure {
   margin: 10%;
 }
@@ -560,4 +572,21 @@ footer a:hover {
 footer img {
   width: 150px;
   height: auto;
+}
+
+
+/* ------------ Keyframe - Animations -------------------------*/
+
+@keyframes appearIn {
+  0% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(1.1);
+  }
+
+  0% {
+    transform: scale(1);
+  }
 }

@@ -16,9 +16,9 @@ h1 {
   }
 
   .running-text {
-    max-width: 400px;
+    max-width: 350px;
     column-count: 1;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
   .img-accueil {
@@ -57,9 +57,9 @@ h1 {
   }
 
   .running-text {
-    max-width: 600px;
-    column-count: 2;
-    font-size: 0.8em;
+    max-width: 400px;
+    column-count: 1;
+    font-size: 1em;
   }
 
   .intro {
