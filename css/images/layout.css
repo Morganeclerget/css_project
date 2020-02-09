@@ -15,6 +15,10 @@ h1 {
     width: 60px;
   }
 
+  .hero {
+    margin-top : 25px;
+  }
+
   .running-text {
     max-width: 250px;
     column-count: 1;
@@ -24,9 +28,18 @@ h1 {
   font-size: 1em;
   }
 
-  .img-accueil {
-  width: 320px;
+  .gorille {
+    width: 100%;
   }
+
+  .gorilla {
+    grid-template-columns: 100%;
+  }
+
+  .img-accueil {
+    border-radius: 0;
+  }
+
 
   .footer-part {
     flex-direction: column;
@@ -59,6 +72,10 @@ h1 {
     width: 60px;
   }
 
+  .hero {
+    margin-top : 25px;
+  }
+
   .running-text {
     max-width: 400px;
     column-count: 1;
@@ -69,12 +86,16 @@ h1 {
     padding-right: 11px;
   }
 
-  .img-accueil {
-  width: 320px;
+  .gorille {
+    width: 100%;
   }
 
-  .gorille {
-    width: 90%;
+  .gorilla {
+    grid-template-columns: 100%;
+  }
+
+  .img-accueil {
+    border-radius: 0;
   }
 
 }
@@ -96,9 +117,11 @@ h1 {
     padding-right: 11px;
   }
 
-  .img-accueil {
-  width: 300px;
+  .gorilla {
+    grid-template-columns: 300px 300px;
   }
+
+
 
   /*body{
     background-color: purple;
@@ -111,10 +134,7 @@ h1 {
 }
 
 @media (min-width:1025px) and (max-width: 1280px) {
-  /*body{
-    background-color: brown;
-      }
-      */
+
 
       h1 {
         font-size: 7em;
@@ -124,7 +144,7 @@ h1 {
         max-width: 900px;
       }
 
-      .img-accueil {
-      width: 300px;
+      .gorilla {
+        grid-template-columns: 250px 250px 250px;
       }
 }
