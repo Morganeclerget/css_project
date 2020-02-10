@@ -15,10 +15,6 @@ h1 {
     width: 60px;
   }
 
-  .hero {
-    margin-top : 50px;
-  }
-
   .running-text {
     max-width: 250px;
     column-count: 1;
@@ -70,10 +66,6 @@ h1 {
 
   .logo {
     width: 60px;
-  }
-
-  .hero {
-    margin-top : 50px;
   }
 
   .running-text {

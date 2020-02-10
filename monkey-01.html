@@ -13,7 +13,7 @@
     <meta name="theme-color" content="#ffffff">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Page one</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/images/styles.css">
   </head>
 
   <body class="dossier">
@@ -21,17 +21,37 @@
     <!--- Header ----------->
 
     <header>
-      <p class="logo"> Logo </p>
-        <ul>
-          <li> <a href="index.html">Home</a></li>
-          <li> <a href="list.html">Lists</a></li>
-          <li><a href="monkey-01.html">Monkeys</a></li>
-        </ul>
+      <a href="#main-menu" class="menu-toggle">
+          <div class="burger-breads">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+      </a>
+
+      <img class="logo" src="images/logos-n-icons/favs/mstile-144x144.png" alt="monkey logo"> </img>
+
+      <nav id="main-menu" class="main-menu">
+          <a href="#main-menu-toggle" class="menu-close">
+            <div class="burger-breads close">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="list.html">Lists</a></li>
+            <li><a href="monkey-01.html">Monkeys</a></li>
+          </ul>
+        </nav>
+        <a href="#main-menu-toggle" class="backdrop" hidden></a>
+
     </header>
 
-  </header>
+    <!------------------------------------------------------------->
 
-  <div class="hero">
+  <div class="hero_monkey">
     <div class="introduction">
       <h2>The proboscis Monkey</h2>
       <p>This is a site about apes and gorillas. In fact it's a site about primates and CSS. If you had enough primates, all working together, they would produce pretty good style sheets. Maybe.</p>
@@ -90,16 +110,25 @@
 </div>
 
 <footer>
-  <div class="">
-    <h1>I'm a footer menu</h1>
-    <p>When I grow up, I'm going to be beautiful</p>
-    <nav>
+  <div class="footer-part">
+    <div class="footer-nav">
+      <h3>Nav</h3>
       <ul>
-        <li><a href="/">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="list.html">Lists</a></li>
-        <li><a href="01-proboscis.html">Proboscis</a></li>
+        <li><a href="monkey-01.html">Monkeys</a></li>
       </ul>
-    </nav>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contact</h3>
+      <p> Morgane CLERGET </p>
+      <a href="mailto:morg.clerget@gmail.com"> morg.clerget@gmail.com </p>
+    </div>
+
+
+
+    <img src="images/photo_morgane.jpg" alt="Photo de Morgane CLERGET">
   </div>
 </footer>
 
