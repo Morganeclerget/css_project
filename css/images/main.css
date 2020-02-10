@@ -507,15 +507,14 @@ Horizontal menu
 .card {
   width: 100%;
   background-image: url(../../images/list-page-bcg.jpg);
-  background-size: contain;
   object-fit: cover;
-  margin-top: 120px;
-  margin-bottom: 100px;
 }
 
 .gorilla-list {
   width: 90%;
   margin: auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -527,7 +526,7 @@ Horizontal menu
   border-radius: 10px;
   border-width: thin;
   flex-basis: 350px;
-  margin-bottom: 50px;
+  margin: 15px;
 }
 
 .goilla-list-item:hover {
