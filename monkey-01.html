@@ -29,7 +29,7 @@
           </div>
       </a>
 
-      <img class="logo" src="images/logos-n-icons/favs/mstile-144x144.png" alt="monkey logo"> </img>
+      <img class="logo" src="images/logos-n-icons/logo.png" alt="monkey logo"> </img>
 
       <nav id="main-menu" class="main-menu">
           <a href="#main-menu-toggle" class="menu-close">
@@ -60,7 +60,13 @@
 
 
   <section class="dossier-top clearfix">
-      <img class="portrait" src="images/portraits/pt-image-01.jpg" alt="A portrait of a proboscis monkey">
+      <picture>
+        <source media="(min-width: 1280px)" srcset="images/portraits/pt-image-01.jpg">
+        <source media="(min-width: 1025px)" srcset="images/portraits/pt-image-02.jpg">
+        <source media="(min-width: 768px)" srcset="images/portraits/pt-image-03.jpg">
+        <source media="(min-width: 0px)" srcset="images/portraits/pt-image-05.jpg">
+        <img class="portrait" src="images/portraits/pt-image-01.jpg" alt="A portrait of a proboscis monkey">
+      </picture>
       <div class="dossier-top-content">
         <div>
         <h2>Proboscis Monkeys</h2>
@@ -94,28 +100,28 @@
     </section>
 
 
-<footer>
-  <div class="footer-part">
-    <div class="footer-nav">
-      <h3>Nav</h3>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="list.html">Lists</a></li>
-        <li><a href="monkey-01.html">Proboscis</a></li>
-      </ul>
-    </div>
+    <footer>
+      <div class="footer-part">
+        <div class="footer-nav">
+          <h3>Nav</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="list.html">Lists</a></li>
+            <li><a href="monkey-01.html">Proboscis</a></li>
+          </ul>
+        </div>
 
-    <div class="footer-contact">
-      <h3>Contact</h3>
-      <p> Morgane CLERGET </p>
-      <a href="mailto:morg.clerget@gmail.com"> morg.clerget@gmail.com </p>
-    </div>
+        <div class="footer-contact">
+          <h3>Contact</h3>
+          <p> Morgane CLERGET </p>
+          <a href="mailto:morg.clerget@gmail.com"> morg.clerget@gmail.com </p>
+        </div>
 
 
 
-    <img src="images/photo_morgane.jpg" alt="Photo de Morgane CLERGET">
-  </div>
-</footer>
+        <img src="images/photo_morgane.jpg" alt="Photo de Morgane CLERGET">
+      </div>
+    </footer>
 
   </body>
 </html>
